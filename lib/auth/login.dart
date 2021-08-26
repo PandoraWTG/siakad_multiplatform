@@ -12,7 +12,6 @@ class LoginScreen extends StatelessWidget {
               elevation: 0.0,
             ),
             body: SingleChildScrollView(
-              physics: NeverScrollableScrollPhysics(),
               scrollDirection: Axis.vertical,
               child: Container(
                 alignment: Alignment.center,
@@ -109,7 +108,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      height: 80.0,
+                      height: 67.0,
                     ),
                   ],
                 ),
